@@ -1,0 +1,25 @@
+/* styles.css */
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-heading {
+    font-size: 28px;
+    font-color: #008000;;
+  }
+  
+  .about-subheading {
+    font-size: 20px;
+    color: black;
+    font: bold;
+  }
+  
+  .about-description {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+  }
+  

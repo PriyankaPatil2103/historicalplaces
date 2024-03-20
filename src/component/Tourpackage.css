@@ -1,0 +1,42 @@
+/* Style for image */
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensure the image covers the entire card */
+  }
+  
+  /* Style for card title */
+  .card-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style for card text */
+  .card-text {
+    margin-top: 5px;
+  }
+  
+  /* Style for card footer */
+  .card-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for buttons */
+  .card-footer button {
+    background-color: #007bff; /* Blue color for button */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-footer button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  

@@ -1,0 +1,22 @@
+form.container{
+    /* height: 100vh; */
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+}
+.form-body{
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(130, 106, 251);
+    padding: 20px;
+}
+.form-label{
+    margin-top: 20px;
+}
