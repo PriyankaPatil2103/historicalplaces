@@ -1,0 +1,35 @@
+/* .profile-tabs {
+    margin-top: 20px;
+  }
+   */
+   /* Profile.css */
+
+.page1 {
+  padding: 20px;
+}
+
+/* Style for Tabs */
+.react-bootstrap__Tabs {
+  margin-top: 20px;
+}
+
+/* Style for Tab content */
+.react-bootstrap__TabContent {
+  padding: 20px;
+}
+
+/* Style for active Tab */
+.react-bootstrap__Tabs .react-bootstrap__Nav .react-bootstrap__NavItem .react-bootstrap__NavLink.active {
+  color: #007bff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .page1 {
+    padding: 10px;
+  }
+}
+
+/* Additional styles can be added as needed */

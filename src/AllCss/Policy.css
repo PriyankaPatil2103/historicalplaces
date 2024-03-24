@@ -1,0 +1,22 @@
+.page {
+    padding: 20px;
+    margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-top: 5%;
+  }
+  
+  .page h4 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 60%;
+  }
+  
+  .page h5 {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  

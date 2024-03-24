@@ -13,7 +13,7 @@ function PackageDetails() {
   const [FromDate, setFromdate] = useState("");
   const [Comment, setComment] = useState("");
   const { UserData } = useSelector((state) => state);
-
+  let i=1;
   function onShow() {
     setIsShow(true);
   }
@@ -57,7 +57,7 @@ function PackageDetails() {
       });
   };
   return (
-    <div>
+    <div className="page1">
       PackageDetails
       {/* <h3>{PkgId}</h3> */}
       <Container fluid className="package-container">
@@ -72,7 +72,7 @@ function PackageDetails() {
             </Col>
             <Col>
               <h4 className="package-name">{packageData?.PackageName}</h4>
-              <h6>#PKG-1</h6>
+              <h6>#PKG{i++}</h6>
               <Col className="package-type">
                 <h5>Package Type:{packageData?.PackageType}</h5>
                 <h5>Package Location:{packageData?.PackageLocation}</h5>

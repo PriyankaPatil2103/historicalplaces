@@ -15,6 +15,7 @@ import Registration from "./component/Registration";
 import BookingDetails from "./component/BookingDetails";
 import Booking from "./component/Booking";
 import MyBooking from "./component/MyBooking";
+import Profile from "./component/Profile";
 function MyRoutes() {
   return (
     <div>
@@ -46,6 +47,7 @@ function MyRoutes() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/bookingdetails/:BookingId" element={<BookingDetails/>}></Route>
           <Route path="/mybooking" element={<MyBooking/>}></Route>
+          <Route path="/profile" element={<Profile/>}></Route>
           <Route path="/registration" element={<Registration />}></Route>
           <Route
             path="/PackageDetails/:PkgId"

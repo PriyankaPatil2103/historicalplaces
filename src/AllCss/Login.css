@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #9090d8;
 }
 
 .log-form-container {
@@ -44,4 +45,9 @@
   align-items: center;
   justify-content: center;
   justify-content: space-between;
+}
+.heading{
+  color: rgb(39, 39, 40);
+  align-items: center;
+  justify-content: center;
 }

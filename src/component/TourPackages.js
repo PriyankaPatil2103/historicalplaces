@@ -2,10 +2,11 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import './Tourpackage.css';
+import '../component/Tourpackage.css';
 function TourPackages() {
   const [packageData, setpackageData] = useState([]);
   const navi = useNavigate();
+  let i=1;
   useEffect(() => {
     axios
       .get("http://localhost:5000/api/getallpackage")
@@ -16,7 +17,7 @@ function TourPackages() {
       .catch((err) => {});
   });
   return (
-    <div>
+    <div className="page">
       <Container>
         <Row>
           {packageData.map((pkg) => {
@@ -26,12 +27,13 @@ function TourPackages() {
                   <Card.Img className="image"
                     src={`http://localhost:5000${pkg.PackageImage}`}
                   ></Card.Img>
-                  <Card.Title>{pkg.PackageName}</Card.Title>
-                  <Card.Text>{pkg.PackageType}</Card.Text>
-                  <Card.Text>{pkg.PackageLocation}</Card.Text>
-                  <Card.Text>{pkg.PackageFeatures}</Card.Text>
-                  <Card.Footer>
-                    <Button variant="primary" onClick={() => navi(`/PackageDetails/${pkg._id}`)}>
+                  <Card.Text>#PKG{i++}</Card.Text>
+                  <Card.Title className="card-title">{pkg.PackageName}</Card.Title>
+                  <Card.Text className="card-text">{pkg.PackageType}</Card.Text>
+                  <Card.Text className="card-text">{pkg.PackageLocation}</Card.Text>
+                  <Card.Text className="card-text">{pkg.PackageFeatures}</Card.Text>
+                  <Card.Footer className="card-footer">
+                    <Button className="card-footer button" variant="primary" onClick={() => navi(`/PackageDetails/${pkg._id}`)}>
                       Details
                     </Button>
                   </Card.Footer>

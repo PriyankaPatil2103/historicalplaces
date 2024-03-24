@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+/* Style for Navbar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  /* Style for Navbar Brand */
+  .navbar-brand {
+    color: #111010e4; /* White text color */
+    font-size: 1.5rem; /* Adjust font size */
+  }
+  
+  /* Style for Navbar Links */
+  .nav-link {
+    color: #090909; /* White text color */
+    font-size: 1rem; /* Adjust font size */
+    margin-right: 5px; /* Add some spacing between links */
+  }
+  
+  /* Style for Navbar Links on Hover */
+  .nav-link:hover {
+    color: #4f3cb9; /* White text color */
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  /* Style for Navbar Toggle Icon */
+  .navbar-toggler-icon {
+    border-color: #ffffff; /* White color for the toggle icon */
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    /* Collapse Navbar on smaller screens */
+    .navbar-collapse {
+      background-color: #343a40; /* Dark background color */
+    }
+    
+    /* Adjust Navbar Brand and Links on smaller screens */
+    .navbar-brand,
+    .nav-link {
+      font-size: 0.9rem; /* Adjust font size */
+      margin-right: 0; /* Remove margin */
+    }
+  }
+  

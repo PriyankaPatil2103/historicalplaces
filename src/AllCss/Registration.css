@@ -1,14 +1,14 @@
-form.container{
-    /* height: 100vh; */
+.form.container{
+     height: 100vh; 
     position: relative;
     max-width: 700px;
     width: 100%;
     background: #fff;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0); 
 }
-.form-body{
+ .form-body{
     font-family: 'Poppins',sans-serif;
     min-height: 100vh;
     display: flex;
@@ -19,4 +19,64 @@ form.container{
 }
 .form-label{
     margin-top: 20px;
-}
+} 
+.registration-container {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust as needed */
+} 
+
+.registration-container h3 {
+    color: #333;
+} 
+
+.registration-container span {
+    cursor: pointer;
+    color: blue;
+} 
+.bg-img{
+    background-image: url("../images/img_nature.jpg");
+    min-height: 380;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.log-container button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  .log-container{
+        /* position:absolute; */
+        right: 0;
+        height: 60%;
+        width: 100%;
+        margin: 40px;
+        display: flex;
+        max-width: 500px;
+        padding: 16px;
+        background-color: white;
+     
+  }
+ .log-container label{
+    color: black;
+    font-weight: bold;
+ }
+ .log-container control{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  
+  }

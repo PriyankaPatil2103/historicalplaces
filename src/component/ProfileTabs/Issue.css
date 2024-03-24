@@ -1,0 +1,38 @@
+/* Issue.css */
+
+/* Style for Container */
+.container {
+    margin-top: 5%;
+    /* max-width: 500px; */
+  }
+  
+  /* Style for Form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for Form Labels */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Style for Form Inputs */
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  /* Style for Button */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for Button */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  

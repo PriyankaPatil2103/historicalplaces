@@ -6,7 +6,7 @@ import { Link as RLink } from "react-router-dom";
 function Navscrollbar() {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary navbar-scroll" sticky="top">
+      <Navbar expand="lg" className="bg-body-tertiary navbar-scroll" style={{position:"fixed"}}>
         <Container>
           <Navbar.Brand>HISTORICAL PLACES</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-nav-bar"></Navbar.Toggle>
@@ -35,6 +35,9 @@ function Navscrollbar() {
               </Nav.Link>
               <Nav.Link>
                 <RLink to="/login">Login</RLink>
+              </Nav.Link>
+              <Nav.Link>
+                <RLink to="/profile">Profile</RLink>
               </Nav.Link>
               <Nav.Link>
                 <RLink to="/mybooking">MyBooking</RLink>

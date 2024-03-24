@@ -1,4 +1,11 @@
 /* styles.css */
+.page {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  margin-top: 5%;
+}
 
 .about-container {
     max-width: 1000px;

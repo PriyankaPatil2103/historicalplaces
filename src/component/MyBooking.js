@@ -4,10 +4,10 @@ import Booking from './Booking'
 
 function MyBooking() {
   return (
-    <div>
+    <div className='page'>
         <Container>
             <Row>
-                <Tabs defaultActiveKey="Pending">
+                <Tabs fill variant="tabs" defaultActiveKey="Pending" style={{marginTop:"20px"}}>
                     <Tab eventKey="Pending" title="Pending">
                         <Booking bookingstatus="Pending"></Booking>
                     </Tab>
