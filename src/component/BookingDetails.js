@@ -35,7 +35,7 @@ function BookingDetails() {
       });
      }
   return (
-    <div className='page'>
+    <div>
       Booking Details
       {/* <h3>{BookingId}</h3> */}
       <Container className="container">

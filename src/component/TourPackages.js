@@ -17,7 +17,7 @@ function TourPackages() {
       .catch((err) => {});
   });
   return (
-    <div className="page">
+    <div className="page-1">
       <Container>
         <Row>
           {packageData.map((pkg) => {

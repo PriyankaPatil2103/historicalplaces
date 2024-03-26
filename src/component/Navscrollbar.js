@@ -25,12 +25,6 @@ function Navscrollbar() {
                 <Link to="privacypolicy">PrivacyPolicy</Link>
               </Nav.Link>
               <Nav.Link>
-                <RLink to="/termstouse">TermsToUse</RLink>
-              </Nav.Link>
-              <Nav.Link>
-                <RLink to="/contact">Contact</RLink>
-              </Nav.Link>
-              <Nav.Link>
                 <RLink to="/enquiry">Enquiry</RLink>
               </Nav.Link>
               <Nav.Link>
@@ -42,9 +36,9 @@ function Navscrollbar() {
               <Nav.Link>
                 <RLink to="/mybooking">MyBooking</RLink>
               </Nav.Link>
-              <Nav.Link>
+              {/* <Nav.Link>
                 <RLink to="/bookingdetails">BookingDetails</RLink>
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -23,17 +23,8 @@ function MyNavbar() {
               <Nav.Link>
                 <Link to="/privacypolicy">Privacy Policy</Link>
               </Nav.Link>
-             <Nav.Link>
-                <Link to="/termstouse">Terms To Use</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/bookingdetails">BookingDetails</Link>
-              </Nav.Link>
               <Nav.Link>
                 <Link to="/booking">Booking</Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/contact">Contact Us</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/enquiry">Enquiry</Link>

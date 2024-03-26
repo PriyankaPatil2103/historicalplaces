@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Row, Tab, Tabs } from 'react-bootstrap'
 import Booking from './Booking'
-
+import '../AllCss/MyBooking.css'
 function MyBooking() {
   return (
-    <div className='page'>
+    <div className='main-div'>
         <Container>
             <Row>
                 <Tabs fill variant="tabs" defaultActiveKey="Pending" style={{marginTop:"20px"}}>

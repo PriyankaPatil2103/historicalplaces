@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./component/Home";
 import About from "./component/About";
-import Contact from "./component/Contact";
+// import Contact from "./component/Contact";
 import MyNavbar from "./MyNavbar";
 import TourPackages from "./component/TourPackages";
 import PrivacyPolicy from "./component/PrivacyPolicy";
-import TermsToUse from "./component/TermsToUse";
+// import TermsToUse from "./component/TermsToUse";
 import Enquiry from "./component/Enquiry";
 import Navscrollbar from "./component/Navscrollbar";
 import PackageDetails from "./component/PackageDetails";
@@ -41,8 +41,8 @@ function MyRoutes() {
               </>
             }
           ></Route>
-          <Route path="/termstouse" element={<TermsToUse />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          {/* <Route path="/termstouse" element={<TermsToUse />}></Route> */}
+          {/* <Route path="/contact" element={<Contact />}></Route> */}
           <Route path="/enquiry" element={<Enquiry />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/bookingdetails/:BookingId" element={<BookingDetails/>}></Route>

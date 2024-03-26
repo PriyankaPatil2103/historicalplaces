@@ -3,6 +3,7 @@ import React from "react";
 import { Row, Tab, Tabs } from "react-bootstrap";
 import '../AllCss/Profile.css';
 import Issue from "./ProfileTabs/Issue";
+import Remarkissue from "./ProfileTabs/Remarkissue";
 
 function Profile() {
   axios.post();
@@ -23,6 +24,9 @@ function Profile() {
           </Tab>
           <Tab className="react-bootstrap__TabContent" eventKey="Issue" title="Issue">
             <Issue/>
+          </Tab>
+          <Tab eventKey="Remarkissue" title="Issue">
+            <Remarkissue/>
           </Tab>
         </Tabs>
       </Row>
