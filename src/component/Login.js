@@ -58,7 +58,7 @@ function Login() {
             <Button onClick={() => addlogin()}>Login</Button>
 
             <Form.Group>
-              <span onClick={() => navi("/registration")}>
+              <span className="span" onClick={() => navi("/registration")}>
                 Don't have an account? Register here.
               </span>
             </Form.Group>

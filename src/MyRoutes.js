@@ -16,6 +16,7 @@ import BookingDetails from "./component/BookingDetails";
 import Booking from "./component/Booking";
 import MyBooking from "./component/MyBooking";
 import Profile from "./component/Profile";
+import Footer from "./component/Footer";
 function MyRoutes() {
   return (
     <div>
@@ -53,6 +54,7 @@ function MyRoutes() {
             path="/PackageDetails/:PkgId"
             element={<PackageDetails />}
           ></Route>
+          {/* <Route path="/footer" element={<Footer/>}></Route> */}
         </Routes>
       </Router>
     </div>

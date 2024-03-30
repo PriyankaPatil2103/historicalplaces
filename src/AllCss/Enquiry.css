@@ -1,6 +1,6 @@
 .div{
     display: flex;
-    margin-top: 4%;
+    margin-top: 5%;
     align-items: center;
     justify-content: center;
 }
@@ -10,6 +10,7 @@
     width: 100vw;
     /* display: flex; */
     align-items: center;
+    
 }
 .h1{
     color: gray;

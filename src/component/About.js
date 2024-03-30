@@ -1,10 +1,16 @@
 import React from 'react'
 import '../AllCss/About.css';
 import { Container } from 'react-bootstrap';
+import { FaMobileAlt } from "react-icons/fa";
 
 function About() {
   return (
     <div className='page'>
+      {/* <FaMobileAlt
+      align-item={"center"} 
+      size={28}
+      style={{ paddingRight: 5 }}
+    /> */}
       <Container className='about-container'>
       <h1 className='about-heading"'>About us</h1>
       <h2 className='about-subheading'>Welcome to Tourisom Management System..!</h2>

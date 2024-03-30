@@ -4,7 +4,8 @@ import { Row, Tab, Tabs } from "react-bootstrap";
 import '../AllCss/Profile.css';
 import Issue from "./ProfileTabs/Issue";
 import Remarkissue from "./ProfileTabs/Remarkissue";
-
+import MyProfile from './ProfileTabs/MyProfile';
+import Changepassword from "./ProfileTabs/Changepassword";
 function Profile() {
   axios.post();
   return (
@@ -16,16 +17,16 @@ function Profile() {
           defaultActiveKey="MyProfile"
           style={{ marginTop: "20px" }}
         >
-          <Tab className="react-bootstrap__TabContent" eventKey="MyProfile" title="MyProfile">
-            The my profile component
+          <Tab className="react-bootstrap__TabContent" eventKey="Profile" title="Profile">
+          <MyProfile/>
           </Tab>
-          <Tab className="react-bootstrap__TabContent" eventKey="changepassword" title="Changepassword">
-            the content of changepassword component
+          <Tab className="react-bootstrap__TabContent" eventKey="Changepassword" title="Changepassword">
+            <Changepassword/>
           </Tab>
           <Tab className="react-bootstrap__TabContent" eventKey="Issue" title="Issue">
             <Issue/>
           </Tab>
-          <Tab eventKey="Remarkissue" title="Issue">
+          <Tab eventKey="Remarkissue" title="Remarkissue">
             <Remarkissue/>
           </Tab>
         </Tabs>

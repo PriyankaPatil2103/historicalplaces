@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { Button, Container, Form} from "react-bootstrap";
-import "../ProfileTabs/Issue.css";
+import '../ProfileTabs/Issue.css';
 function Issue() {
     const [UserIssues,setIssues]=useState("")
     const [Description,setDescription]=useState("");
@@ -24,7 +24,7 @@ function Issue() {
 
   return (
     <div>
-         <Container className='container'>
+         <Container className='container1'>
         <Form>
                 <Form.Group className="form-group">
                   <Form.Label className='form-label'>Issues:</Form.Label>
@@ -32,7 +32,7 @@ function Issue() {
                   onChange={(e)=>setIssues(e.target.value)}></Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-3">
-                  <Form.Label>Description:</Form.Label>
+                  <Form.Label className='form-label'>Description:</Form.Label>
                   <Form.Control
                     type="text"
                     placeholder="Description"

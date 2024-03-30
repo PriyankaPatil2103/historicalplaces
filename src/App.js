@@ -9,12 +9,14 @@ import About from "./component/About";
 import TourPackages from "./component/TourPackages";
 import PrivacyPolicy from "./component/PrivacyPolicy";
 import Registration from "./component/Registration";
+import Footer from "./component/Footer";
 // import Header from "./component/Header";
 
 function App() {
   return (
     <div>
       <MyRoutes />
+      {/* <Footer/> */}
       
     </div>
   );
